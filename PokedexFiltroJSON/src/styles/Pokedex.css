@@ -1,0 +1,46 @@
+.pokeContainer {
+  width: 50%;
+  background: red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokeList {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.pokeOption {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid yellow;
+  background-color: black;
+  color: white;
+}
+
+.pokeSearch {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.pokeSearch > input {
+  border: none;
+}
+
+input {
+  font-size: 23px;
+}
+
+button {
+  font-size: 22px;
+  padding: 15px 30px;
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+  display: flex;
+  align-items: space-between;
+  gap: 100px;
+}
+
+.container {
+  background: url("../images/pokedex.jpg") black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 480px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#pokemonImg {
+  width: 300px;
+  margin-top: 350px;
+  margin-left: 60px;
+}
+
+#name {
+  width: 350px;
+  margin-left: 40px;
+  margin-bottom: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}

@@ -1,0 +1,39 @@
+.stats {
+    width: 340px; 
+    color: yellow;
+    font-size: 28px;
+    position: relative;
+    left: -180px;
+}
+
+.stats h3 {
+    margin-bottom: 75px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-bottom: 40px;
+}
+
+.nombreStat {
+    padding-right: 25px;
+}
+
+.numeroStat {
+    text-align: right;
+}
+
+.bajaStat {
+    color: red;
+}
+
+.normalStat {
+    color: white
+}
+
+.altaStat {
+    color: lime;
+}
